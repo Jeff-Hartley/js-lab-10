@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 10 - API Calls in JavaScript</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1>Lab 10 - API Calls in JavaScript</h1>
+  <button id="fetchBtn" class="fetchedBtn">fetch()</button><br>
+  <button id="xhrBtn" class="fetchedBtn">XHR</button>
+  
+  <div id="fetchedDiv"></div>
+
+  <h3>Create a Post</h3>
+  <form id="createPost">
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title" required><br><br>
+
+    <label for="body">Body:</label><br>
+    <textarea id="body" name="body" required></textarea><br><br>
+
+    <button type="submit">Submit Post</button><br>
+  </form><br>
+
+  <h3>Edit Post</h3>
+  <form id="editPost">
+    <label for="editPostId">Post ID:</label><br>
+    <input type="number" id="editPostId" name="id" required><br><br>
+
+    <label for="editPostTitle">Title:</label><br>
+    <input type="text" id="editPostTitle" name="title" required><br><br>
+
+    <label for="editPostContent">Body:</label><br>
+    <textarea id="editPostContent" name="content" required></textarea><br><br>
+
+    <button type="submit">Edit Post</button><br>
+  </form>
+
+  <footer>
+    <hr>
+    <p id="footerP">&copy; 2024 Jeff Hartley</p>
+  </footer>
+</body>
+</html>
