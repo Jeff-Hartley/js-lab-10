@@ -1,0 +1,15 @@
+I added an explanation to my commit method for this.
+
+I had been distracted with exams and realized I had created a repo and uploaded
+everything with one commit. I deleted that past repo, created a new one, and made three main commits:
+
+index
+js
+css
+
+I already had the code done so I couldn't commit as I went. I recognize this isn't ideal, but also
+noticed there isn't a commit goal to reach for this lab.
+
+Just wanted to explain what had happened on my end and why I commited the way I did
+
+Jeff
